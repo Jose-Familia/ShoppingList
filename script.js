@@ -41,6 +41,11 @@ function clearInputEl() {
     inputFieldEl.value = ""
 }
 
+/**
+ * Appends an item to the shopping list element.
+ * 
+ * @param {Array} item - The item to be appended, where item[0] is the item ID and item[1] is the item value.
+ */
 function appendItemToShoppingListEl(item) {
     let itemID = item[0]
     let itemValue = item[1]
